@@ -1,11 +1,11 @@
-package com.github.shikejing.experimentplatformjava;
+package com.github.shikejing.experimentplatform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class ExperimentPlatformApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ExperimentPlatformApplication.class, args);
     }
 }
