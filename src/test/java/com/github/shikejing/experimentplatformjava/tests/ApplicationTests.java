@@ -1,14 +1,16 @@
 package com.github.shikejing.experimentplatformjava.tests;
 
+import com.github.shikejing.experiment.ExperimentPlatformApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 /**
- * @version 1.0
+ * Spring 上下文冒烟测试：所有组件可正常装配。
  */
-@SpringBootTest
+@SpringBootTest(classes = ExperimentPlatformApplication.class)
 public class ApplicationTests {
+
     @Test
-    public void contentLoad() {
+    public void contextLoads() {
     }
 }
